@@ -19,7 +19,7 @@ function whileLoop(num) {
   return "done"
 }
 
-function doWhileLoop(arr){
+function doWhileLoop(arr) {
   var newArr = arr
   function incrementVariable() {
   i = 0
@@ -30,7 +30,7 @@ function doWhileLoop(arr){
     delete NewArr[i];
     incrementVariable();
   } while 
-  (array.length > 0 && incrementVariable());
+  (newArr.length > 0 && incrementVariable());
   
   return NewArr
   
