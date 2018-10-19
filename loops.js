@@ -9,3 +9,12 @@ function forLoop(arr){
   }
   return arr
 }
+
+function whileLoop(num) {
+  let countdown = num;
+  while(countdown > 0){
+    consol.log(countdown);
+    --consol
+  }
+  return "done"
+}
