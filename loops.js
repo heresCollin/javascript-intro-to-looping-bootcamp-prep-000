@@ -13,8 +13,8 @@ function forLoop(arr){
 function whileLoop(num) {
   let countdown = num;
   while(countdown > 0){
-    consol.log(countdown);
-    --consol
+    console.log(countdown);
+    --countdown
   }
   return "done"
 }
