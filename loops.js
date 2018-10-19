@@ -32,6 +32,6 @@ function doWhileLoop(arr) {
   } while 
   (newArr.length > 0 && incrementVariable());
   
-  return NewArr
+  return newArr
   
 }
