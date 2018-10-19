@@ -20,17 +20,18 @@ function whileLoop(num) {
 }
 
 function doWhileLoop(arr){
+  newArr = arr
   function incrementVariable() {
   i = 0
   i = i + 1;
   }
   
   do { 
-    delete arr[i];
+    delete NewArr[i];
     incrementVariable();
   } while 
   (array.length > 0 && incrementVariable());
   
-  return arr
+  return NewArr
   
 }
