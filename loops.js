@@ -27,8 +27,9 @@ function doWhileLoop(arr) {
   }
   
   do { 
-    delete newArr[i];
     incrementVariable()
+    delete newArr[i];
+    
   } while 
   (newArr.length > 0 && incrementVariable());
   
