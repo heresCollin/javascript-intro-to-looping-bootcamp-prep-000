@@ -23,7 +23,7 @@ function doWhileLoop(arr) {
   var newArr = arr;
   var i = -1;
   function incrementVariable() {
-    i ++
+    i ++;
   }
   
   do { 
