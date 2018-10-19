@@ -21,11 +21,11 @@ function whileLoop(num) {
 
 function doWhileLoop(arr){
   function incrementVariable() {
+  i = 0
   i = i + 1;
   }
   
-  do {
-    
-  } while (array.length > 0 && incrementVariable())
+  do { delete arr[i]} while (array.length > 0 && incrementVariable())
+  return arr
   
 }
